@@ -1,12 +1,5 @@
 /**
 * Starter code for lab 4 - Q1
-* @todo Please read the comments in the code to understand what needs to be done.
-* use your code from last week's Q2!.  If you are having troubles getting
-* the code running, please make sure you meet with your TA or instructor.
-*
-* This is the same problem as Lab 3 - Q3 but done with the reduction operator 
-* Note:        
-*   -return value should be added in to an OpenMP reduction variable for the total sum
 *              
 **/
 
@@ -50,13 +43,12 @@
 #include <omp.h>     
 
 //This defines the number of threads that will be used for the problem
-/** @todo adjust this ! */
 #define NUM_THREADS 16
 
 // The array size must be a multiple of the number of thread (for this example)
 // otherwise bad things will happen (ie one thread attempting to access data
 // outside of the bounds of the array)
-#define VALUE 1000  /** @todo adjust this value to increase number of elements */
+#define VALUE 1000
 #define ARRAY_SIZE (NUM_THREADS * VALUE)
 
 
@@ -71,8 +63,6 @@
  * and needs to be evenly divisible.
  * 
  * @todo this function needs to be called using a parallel directive using reduction.
- * This is similar to what we did in lab 3, but there, needed to manually reduce
- * the sum.
  * @param input - array A
  * @param size - the size of the array (ie number of elements)
  * 
@@ -109,7 +99,6 @@ int main(int argc, char* argv[])
         /** @todo 
          * Check the results to make sure the sums are working!
          * Print out sums and timing information with number of threads)
-         * Use your code from last week - Lab 3 - Q2 
          **/
         printf("Using %d threads: ", NUM_THREADS);
         printf("\nSum: %d \n", global_sum);
