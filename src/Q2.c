@@ -1,6 +1,5 @@
 /**
 * Starter code for lab 3 - Q2
-* @todo Please read the comments in the code to understand what needs to be done
 **/
 
 /** SERIAL
@@ -50,13 +49,12 @@
 #include <time.h>
 
 //This defines the number of threads that will be used for the problem
-/** @todo adjust this ! */
 #define NUM_THREADS 2
 
 // The array size must be a multiple of the number of thread (for this example)
 // otherwise bad things will happen (ie one thread attempting to access data
 // outside of the bounds of the array)
-#define VALUE 1000  /** @todo adjust this value to increase number of elements */
+#define VALUE 1000
 #define ARRAY_SIZE (NUM_THREADS * VALUE)
 
 
