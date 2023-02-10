@@ -3,15 +3,6 @@
  * Lab 3 - Q1.c
  * Starter Code
  *
- * Notes: 
- *  @todo use clock() from time.h to time the code
- *  @todo make sure to use malloc inside each function
- *  @todo make sure you free resources when done.
- * 
- * Useful things:
- *      Get time:               double t = clock();
- *      Convert time to ms:     (1000 * t / CLOCKS_PER_SEC)
- * 
  **/
 
 /** OUTPUT 2 THREADS, 50 MILLION SIZE
