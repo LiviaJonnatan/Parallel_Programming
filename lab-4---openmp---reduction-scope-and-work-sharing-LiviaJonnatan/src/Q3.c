@@ -1,12 +1,5 @@
 /**
 * Starter code for lab 4 - Q3
-* Use parallel for with private variable -
-* Go back to lab 4 - Q2 (now done with OpenMP and parallel for directive)
-* @todo Please read the comments in the code to understand what needs to be done
-* 
-* Notes:
-* -Does the size of the array now need to be a mulple of the number of threads?
-* -time and compare with Q2
 *
 **/
 
