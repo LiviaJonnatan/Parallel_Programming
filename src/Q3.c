@@ -1,4 +1,4 @@
-4/**
+ /**
  * Lab 3 - Q3.c 
  * Code for analyis of atomic/critical section behaviour
  **/
