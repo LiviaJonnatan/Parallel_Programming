@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <omp.h>
 
-#define NUM_RUNS 100        /** @todo adjust to run a number of times **/
+#define NUM_RUNS 100
 
 int main(int argc, char* argv[])
 {
